@@ -16,7 +16,7 @@ rm -rf $CREL
 # install golang
 add-apt-repository ppa:gophers/archive
 apt update
-apt-get install golang-1.9-go
+apt-get install -y golang-1.9-go
 PATH=$PATH:/usr/lib/go-1.9/bin
 
 # make/install quorum
